@@ -1,0 +1,369 @@
+/* google font css */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/* google font css */
+
+body,h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.gray-bg{
+    background:#F7F9FF;
+}
+
+/* custom nav */
+.own-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.own-header span {
+    display: inline;
+    background: #6278DF;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    top: 3px;
+    color: white;
+    font-size: 30px;
+    padding: 8px 12px;
+}
+
+.own-menu li.nav-item {
+    padding-left: 11px;
+}
+.slider-section{
+    position: relative;
+    z-index: 1;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.slider-section:after{
+    position: absolute;
+    content: '';
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+    z-index: -1;
+}
+.slider-caption h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 25px 0px;
+}
+.slider-caption .btn {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.slider-caption input {
+    padding: 16px;
+}
+
+.slider-caption input::placeholder {
+    font-size: 24px;
+    color: #D4DFEF;
+}
+/* custom nav */
+
+
+/* counter section css */
+.counter-content {
+    text-align: center;
+}
+.counter-content h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+.counter-content h5 {
+    color: #8C7676;
+    margin-top: 16px;
+    text-transform: capitalize;
+}
+
+/* counter section css */
+
+/* active goal section */
+.active-goal-content {
+    margin-top: 120px;
+}
+
+.active-goal-content h1 {
+    text-transform: capitalize;
+}
+
+.active-goal-content p {
+    line-height: 31px;
+    font-size: 18px;
+    letter-spacing: normal;
+    margin-top: 25px;
+}
+
+.active-goal-image img {
+    width: 100%;
+    height: auto;
+}
+/* active goal section */
+
+/* featured section  */
+.featured-section-title-content.text-center h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.featured-section-title-content.text-center h4 {
+
+}
+
+.featured-section-title-content.text-center h4 {
+    margin-top: 20px;
+    color: #8C7676;
+}
+
+.featured-item {
+    height: 300px;
+    box-shadow:2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.featured-item-img {
+    width: 40%;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+}
+
+.featured-item-img img {
+    width: 389px;
+    height: 100%;
+    position: relative;
+    left: -119px;
+}
+.featured-item-cotnent{
+    width:60%;
+    padding: 18px;
+}
+
+.featured-item-cotnent p {
+    color: #8C7676;
+    line-height: 25px;
+}
+
+/* featured section  */
+
+
+/* portfolio section  */
+.porfolio-item{
+    position: relative;
+}
+
+.porfolio-item img{
+    width:100%;
+}
+
+.porfolio-item a::after{
+    content: "";
+    width:100%;
+    height:100%;
+    background: black;
+    left: 0;
+    top: 0;
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.porfolio-item:hover a::after{
+    opacity: .5;
+    visibility: visible;
+    transform: .5s;
+}
+/* portfolio section  */
+
+/* start plane  */
+.plan-item-title h4 {
+    padding: 15px 0px;
+    color: #8C7676;
+}
+
+.plan-item-title h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.plan-content ul {
+    margin: 0;
+    padding: 0;
+}
+.plan-content ul li {
+    display: inline-flex;
+    padding-top: 20px;
+}
+
+.plan-content ul li span.fas.fa-close {
+    font-size: 38px;
+    font-weight: 800;
+    color: blue;
+    padding-left: 10px;
+}
+
+.plan-content ul li span.fas.fa-check {
+    font-size: 38px;
+    font-weight: 800;
+    color: blue;
+}
+
+.plan-content h5 {
+    padding-left: 17px;
+    color: gray;
+    text-transform: capitalize;
+}
+
+a.plan-btn {
+    background: blue;
+    padding: 17px 41px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.plan-item {
+    box-shadow: 7.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.plan-item:hover a.plan-btn{
+    background: white !important;
+    border:1px solid blue;
+    color:black;
+    transition: .5s;
+}
+
+a.plan-btn:hover{
+    background: black !important;
+    border:1px solid white;
+}
+
+/* start plane  */
+
+/* feedback section */
+.feedback-content span {
+    font-size: 100px;
+    color: #cccccc;
+}
+
+.autor-info {
+    width: 200px;
+    margin: auto;
+}
+
+.autor-info img {
+    width: 51px;
+}
+
+.author-name {
+    text-align: left;
+    float: right;
+    position: relative;
+    left: -35px;
+    top: 5px;
+}
+
+.author-name h6 {
+    color: gray;
+    line-height: 9px;
+}
+
+/* feedback section */
+
+/* team member section */
+.team-item {
+    position: relative;
+    padding-top: 50px;
+}
+
+.team-item img {
+    position: absolute;
+    top: -69px;
+    left: 17px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px;
+}
+
+.team-item {
+    position: relative;
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-bottom: 40px;
+    padding-right: 15px;
+    box-shadow: 7.5px 4.33px 30px 0 rgb(64 87 191 / 20%)
+}
+
+.pb{
+    padding-bottom: 70px;
+}
+
+.team-item-content p {
+    margin-top: 15px;
+    color: gray;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+a.btn.btn-outline-primary.team-btn {
+    box-shadow: 7.5px 4.33px 30px 0 rgb(64 87 191 / 20%)
+
+}
+/* team member section */
+
+/* contruct us section  */
+.custom-form-card{
+    box-shadow: 7.5px 4.33px 30px 0 rgb(64 87 191 / 20%)
+}
+.conturct-form input {
+    height: 70px;
+}
+
+.conturct-form input::placeholder {
+    color: #dddcdc;
+}
+
+.contuct-btn{
+    border: 1px solid blue;
+}
+.contuct-btn:hover{
+    background:white;
+    border: 1px solid blue;
+    color:blue;
+    transition: .5s;
+}
+
+/* contruct us section  */
+
+/* app section  */
+.featured-section-title-content p {
+    font-size: 25px;
+    color: #939393;
+}
+
+.app-img img {
+    width: 100%;
+}
+
+
+/* app section  */
+
+
+
+
+
+
